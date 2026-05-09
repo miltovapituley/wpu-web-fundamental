@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WPU-StreamFest 2026</title>
   </head>
   <body>
     <!-- header -->
@@ -315,9 +315,10 @@
               <td>
                 <input
                   type="radio"
-                  name="reguler"
+                  name="type-ticket"
                   id="reguler"
                   value="Reguler"
+                  checked
                 />
                 Rp. 500.000,-
               </td>
@@ -327,8 +328,8 @@
                 <label for="vip">VIP :</label>
               </td>
               <td>
-                <input type="radio" name="vip" id="vip" value="VIP" /> Rp.
-                1.500.000,-
+                <input type="radio" name="type-ticket" id="vip" value="VIP" />
+                Rp. 1.500.000,-
               </td>
             </tr>
             <tr>
@@ -336,8 +337,8 @@
                 <label for="vvip">VVIP :</label>
               </td>
               <td>
-                <input type="radio" name="vvip" id="vvip" value="VVIP" /> Rp.
-                3.000.000,-
+                <input type="radio" name="type-ticket" id="vvip" value="VVIP" />
+                Rp. 3.000.000,-
               </td>
             </tr>
             <tr>
@@ -352,6 +353,7 @@
                   min="1"
                   max="10"
                   placeholder="0"
+                  required
                 />
               </td>
             </tr>
@@ -368,6 +370,7 @@
                   name="day-pass"
                   id="day-pass"
                   value="day-pass"
+                  checked
                 />
                 15 June, 2026
               </td>
@@ -400,12 +403,16 @@
                 17 June, 2026
               </td>
             </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <button type="submit">Submit</button>
+              </td>
+            </tr>
           </table>
         </form>
       </section>
     </main>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </body>
 </html>
